@@ -32,6 +32,8 @@ body{
 }
 
 .display-flex{
+  margin: 10px auto;
+  gap: 10px;
   display: flex;
 }
 
@@ -292,6 +294,7 @@ background: rgba(48, 48, 48, 0.54);
 .run-an-extra{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 165px;
   margin-top: 100px;
 }
 
@@ -325,3 +328,109 @@ background: rgba(48, 48, 48, 0.54);
 }
 
 /* run-an-extra section styles end here */
+
+
+/* BMI section styles start here */
+
+.bmi-container{
+  width: 670px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 100px;
+}
+
+.bmi-container h3{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.bmi-container p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.calculate{
+  background: rgb(34, 34, 34);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+     
+.bmi-table h3{
+  font-size: 28px;
+  font-weight: 900;
+}
+
+
+table{
+  width: 310px;
+  height: 216px;
+  margin-top: 50px;
+  border-collapse: collapse;
+}
+
+td, th{
+ 
+  border: 2px solid rgb(95, 92, 92);
+  padding: 5px 10px;
+}
+
+td{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.bmi-side h3{
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.bmi-side p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.from{
+ margin: 10px auto;
+}
+
+
+
+input{
+  width: 5.2rem;
+  height: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 10;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sex{
+  width: 9.3rem;
+  height: 2.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 10;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.select{
+  width: 18.6rem;
+  height: 2.8rem;
+  color: rgba(255, 255, 255, 0.6);
+  gap: 10;
+  padding: 12px 40px 12px 20px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* BMI section styles end here */
