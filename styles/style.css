@@ -284,3 +284,44 @@ background: rgba(48, 48, 48, 0.54);
 }
 
 /* Hobits section styles end here */ 
+
+
+
+/* run-an-extra section styles start here */
+
+.run-an-extra{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+}
+
+
+.run-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.run-content h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.run-content p{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+.run{
+  width: 360px;
+  height: 300px;
+  border-radius: 18px;
+  background: url(4);
+}
+
+/* run-an-extra section styles end here */
