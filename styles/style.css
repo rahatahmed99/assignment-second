@@ -224,3 +224,63 @@ background: rgba(48, 48, 48, 0.54);
 }
 
 /* banner section styles end here */
+
+
+/* Hobits section styles start here */
+
+.hobits-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 6rem;
+  gap: 14px;
+  padding: 0;
+}
+
+.hobits-content h3{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.hobits-content p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+
+.img-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  margin-top: 3.5rem;
+
+}
+
+
+.cards{
+  width: 200px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards img{
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.cards h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.cards p{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Hobits section styles end here */ 
