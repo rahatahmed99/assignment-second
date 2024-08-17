@@ -389,12 +389,14 @@ td{
 .bmi-side h3{
   font-size: 28px;
   font-weight: 900;
+  margin-bottom: 15px;
 }
 
 .bmi-side p{
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.3px;
+  margin-bottom: 30px;
 }
 
 .from{
@@ -434,3 +436,66 @@ input{
 }
 
 /* BMI section styles end here */
+
+
+/* my team section start here */
+
+.my-team img{
+  width: 100%;
+  height: 260px;
+}
+
+.team-content{
+  width: 671px;
+ height: 120px;
+ margin: 0 auto;
+ margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 70px;
+ 
+}
+
+
+.team-content h3{
+  font-size: 2.7rem;
+  font-weight: 900;
+}
+
+.team-content p{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  margin-top: 12px;
+}
+
+.row-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.trainer{
+  position: relative;
+}
+
+.name{
+ position: absolute;
+ top: 230px;
+ left: 10px;
+}
+
+.trainer img{
+  width: 260px;
+height: 260px;
+border-radius: 18px;
+background: rgba(0, 0, 0, 0.2),url(image);
+}
+
+.row-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5px;
+}
+
